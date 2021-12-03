@@ -2,7 +2,7 @@ var express = require("express")
 var app = express() ;
 var dotenv = require('dotenv') ;
 const mongoose = require('mongoose')
-const port = 3002 ;
+const port = 3000 ;
 const cors = require('cors');
 const bcrypt = require('bcrypt-nodejs');
 dotenv.config() ;
